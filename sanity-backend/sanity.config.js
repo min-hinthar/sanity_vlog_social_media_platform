@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'sanity-vlog-platform',
+  title: 'sanity-backend',
 
-  projectId: '6l0jxcqs',
+  projectId: 'u0w1p7dg',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
