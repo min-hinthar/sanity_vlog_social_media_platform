@@ -1,4 +1,4 @@
-# Project Title [ Sanity_Vlog_Social_Media_Platform ]
+# Project Title: [ Sanity_Vlog_Social_Media_Platform ]
 
 Deployed on  Live URL: 
 
@@ -39,12 +39,17 @@ TypeScript
 ### Usage 
 
 #### User Story
+
 As a user, I want to be able to easily create and share my vlogs on a social media platform so that I can connect with other vloggers and get feedback on my content.
 
+
 Acceptance Criteria
-The OAuth registration process should be secure and user friendly. 
+
+The OAuth registration process should be secure and user friendly.
+
 The user should be able to upload, share, like and comment on posts. The user should be able to logout from the platform. 
 The platform should be able to handle large volumes of data, handle multiple concurrent users, handle multiple file formats for uploads, different types of media (e.g. images, videos, audio).
+
 The platform should also be able to handle different types of post formats (e.g. text, images, videos), handle different types of comments (e.g. text, images, videos), handle different types of sharing (e.g. text, images, videos) and handle different types of analytics (e.g. user engagement, post performance).
 
 -----
