@@ -69,7 +69,7 @@ const Detail = ({ postDetails }: IProps) => {
                     )}
                 </div>
             </div>
-            {/* MUTE Volume */}
+        {/* MUTE Volume */}
             <div className='absolute bottom-5 lg:bottom-10 right-5 lg:right-10 cursor-pointer'>
                 {isVideoMuted ? (
                     <button onClick={() => setIsVideoMuted(false)}>
@@ -80,6 +80,44 @@ const Detail = ({ postDetails }: IProps) => {
                         <HiVolumeUp className='text-white text-2xl lg:text-4xl' />
                     </button>
                 )}
+            </div>
+        </div>
+    {/* Right-side of Screen */}
+        <div className='relative w-[1000px] md:w-[900px] lg:w-[700]'>
+            <div className='lg:mt-20 mt-10'>
+                {/* USER IMAGE */}
+                <div className='flex  gap-3 p-2 cursor-pointer font-semibold rounded'>
+                    <div className='md:w-20 md:h-20 w-16 h-16 ml-4'>
+                        <Link href="/">
+                            <>
+                                <Image 
+                                    width={62}
+                                    height={62}
+                                    className='rounded-full'
+                                    src={post.postedBy.image}
+                                    alt='profile photo'
+                                    layout='responsive'
+                                    priority
+                                />
+                            </>
+                        </Link>
+                    </div>
+                    {/* USER NAME */}
+                    <div>
+                        <Link href="/">
+                            <div className='mt-3 flex flex-col gap-2'>
+                                <p className='flex gap-2 md:text-md font-bold text-primary'>
+                                    {post.postedBy.userName}
+                                    {""}
+                                    <GoVerified className='text-blue-400 text-md' />
+                                </p>
+                                <p className='capitalize font-medium text-xs text-gray-500 hidden md:block'>
+                                    {post.postedBy.userName}
+                                </p>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
