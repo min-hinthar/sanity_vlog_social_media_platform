@@ -9,6 +9,7 @@ import useAuthStore from '../store/authStore';
 import { client } from '../utils/client';
 
 import { topics } from '../utils/constants';
+import { BASE_URL } from '../utils';
 
 const Upload = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -63,7 +64,7 @@ const Upload = () => {
                 topic: category
             }
 
-            await axios.post('http://localhost:3000/api/post', document);
+            await axios.post(`${BASE_URL}/api/post`, document);
 
             router.push('/');
         }
@@ -138,6 +139,7 @@ const Upload = () => {
                         )}
                     </div>
             </div>
+                {/* POST VIDEO FORM */}
                     <div className='flex flex-col gap-3 pb-10'>
                         <label className='text-md font-medium'>
                             Caption
@@ -165,7 +167,7 @@ const Upload = () => {
                                 </option>
                             ))}
                         </select>
-                        {/* Discard/Upload Button */}
+                {/* Discard/Upload Button */}
                         <div className='flex gap-6 mt-10'>
                             <button
                                 onClick={() => {}}
