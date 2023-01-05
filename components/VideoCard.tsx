@@ -42,6 +42,7 @@ const VideoCard: NextPage<IProps> = ({post}) => {
                                 src={post.postedBy.image}
                                 alt='profile photo'
                                 layout='responsive'
+                                priority
                             />
                         </>
                     </Link>
