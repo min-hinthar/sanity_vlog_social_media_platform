@@ -1,8 +1,13 @@
 # Project Title: [ Sanity_Vlog_Social_Media_Platform ]
 
-Deployed on  Live URL: 
+Deployed on  Live URL: https://sanity-vlog-social-media-platform.vercel.app/
 
-![App Screenshots](./client/src/assets/)
+![App Screenshots](./public/Sanity_1.jpg)
+![App Screenshots](./public/Sanity_2.jpg)
+![App Screenshots](./public/Sanity_3.jpg)
+![App Screenshots](./public/Sanity_4.jpg)
+![App Screenshots](./public/Sanity_5.jpg)
+![App Screenshots](./public/Sanity_6.jpg)
 
 ## Table of Contents
 1. [Description](#description)
@@ -70,6 +75,8 @@ MIT
 -----
 
 ### Questions 
+
+Deployed on  Live URL: https://sanity-vlog-social-media-platform.vercel.app/
 
 #### GitHub Username: min-hinthar 
 
